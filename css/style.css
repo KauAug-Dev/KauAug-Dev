@@ -1,0 +1,16 @@
+*{ margin: 0; box-sizing: border-box; font-family: 'Roboto', sans-serif;}
+h1#home {padding: 15px; background-color: black; color: whitesmoke; text-align: center;}
+nav{text-align: center; margin:0 auto;}
+    nav a{ display: inline; margin: auto; padding: 10px; border-radius: 3px;  background-color: darkturquoise;color: whitesmoke; text-decoration: none; text-align: center;}
+main{ margin: auto; text-align: center;}
+div.view {margin: 0 30%; text-align: center; border: 1px solid black;}
+table{border: 1px solid black; border-radius: 3px; margin: auto;} 
+    table thead td{border: 1px solid black; padding: 5px 10px; border-radius: 3px; background-color: black; color: whitesmoke;}
+    table tbody td{border: 1px solid black; padding: 10px 10px; border-radius: 3px; background-color: whitesmoke; color: black;}
+        a.vieButton{border-radius: 3px;padding: 5px;background-color: blue; color: white; text-decoration: none;}
+        a.updButton{border-radius: 3px;padding: 5px;background-color: green; color: white; text-decoration: none;}
+        a.delButton{border-radius: 3px;padding: 5px;background-color: red; color: white; text-decoration: none;}
+#form {text-align: center; width: 100%; margin: 0px 0;} 
+form { background-color: whitesmoke;display: inline-block; width: 300px;}
+form label {display: block;}
+form input {display: block; width: 100%;}
